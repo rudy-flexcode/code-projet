@@ -1,0 +1,97 @@
+
+
+
+header{
+    padding: 100px;
+    background-image: url(../public/image/fond5.avif);
+
+
+
+#Monbouton {
+    display: inline-block;
+    background-color: #0582CA;
+    border-radius: 30px;
+    border:none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 12px;
+    margin: 1px 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+  
+
+}
+
+h1 {
+    color: #0582CA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 100px;
+    font-size: 26px;
+}
+
+#logo {
+    width: 80px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+
+    }
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contenu {
+    background-color: none;
+    padding: none;
+    border-radius: 10px;
+    
+
+
+
+
+footer {
+
+    background-image: url(../public/image/fond5.avif);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+}
+.social-icons{
+
+   max-width: 2px;
+   max-height: 2px;
+   list-style: none;
+}
+.social-icons{
+    margin: 0 10px;
+
+
+}
+.social-icons a {
+   font-size: 10px;
+}
+
+
