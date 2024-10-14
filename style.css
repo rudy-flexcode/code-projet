@@ -1,15 +1,18 @@
 
 
-
-
 /* css camille */
 main {
     display: grid;
     place-items: center; 
     min-height: 100vh; 
+    /* ajout rudy */
+    margin-top: 500px;
 }
 
 .container {
+
+  
+    
     display: grid;
     flex-direction: column;
     justify-content: space-between;
@@ -62,7 +65,7 @@ p {
 
 
 .CartePrez img {
-    width: 100%;
+    width: 30%;
     border-radius: 500px;
 }
 
