@@ -1,29 +1,14 @@
 body {
-<<<<<<< HEAD
-	background-image:;
+	background-color: #fffcfc;
 	caret-color: transparent;
 	margin: 0;
-=======
-	background-image: url("public/image/bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 90%
-
->>>>>>> 9f39a47e15e9394b6ae629d2e68b1f5ff9abc0ea
 }
-
 #carousel  {
     width: 100%;
     max-width: 100vw;
-<<<<<<< HEAD
-    height:85vh;
-=======
-    height: 65vh;
->>>>>>> 9f39a47e15e9394b6ae629d2e68b1f5ff9abc0ea
+    height: 50vh;
     position: absolute;
-    top: 100%;
+    top: 70%;
     transform: translateY(-50%);
     overflow: hidden;
 }
@@ -32,7 +17,7 @@ body {
 
 .carousel-image  {
     height: 50vh;
-    max-height: 280px;
+    max-height: 250px;
     position: absolute;
     left: 50%;
     border-radius: 7%;
