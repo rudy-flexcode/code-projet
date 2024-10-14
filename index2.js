@@ -1,12 +1,6 @@
+const button = document.getElementById('Monbouton');
+ 
+button.addEventListener('click', () => {
 
-
-document.getElementById("MonBouton")
-button.addEventListener('click', function() {
-    window.location.href = "tonArticle.html";
-    
-
-
-const button = document.querySelector('MonBouton');
-
-
+    alert(' Bienvenue & merci ');
 });

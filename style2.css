@@ -2,22 +2,22 @@
     background-color: none;
     padding: none;
     border-radius: 10px;
-    background: linear-gradient(#01e1ff, #ffffff );
- }
 
+ }
 
 
 
 
 header{
     padding: 100px;
+    height: auto;
     background-image: url(./public/image/fond5.avif);
-   
-    /* background-image: url(../public/image/fond5.avif); */
+
+
 }
 
 
-#Monbouton {
+button {
     display: inline-block;
     background-color: #0582CA;
     border-radius: 30px;
@@ -27,77 +27,73 @@ header{
     text-align: center;
     text-decoration: none;
     display: flex;
-    font-size: 12px;
+    font-size: 15px;
     margin: 1px 2px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     top: 0;
     right: 0;
-  
 
+
+}
+button:hover {
+    background-color: #1B4965;
+}
+button:active  {
+    transform: scale(0.95);
 }
 
 h1 {
-    color: #0582CA;
+
+    background-color: none;
+    color: #1B4965;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    /* position:absolute; modifié pour le mettre au millieu */
     top: 80px;
     left: 100px;
-    /* modif de 26 a 46 px */
     font-size: 46px;
 
 }
 
 #logo {
-    border-radius: 40%;
+    border-radius: 30%;
     width: 100px;
     height: 90px;
     position:absolute;
     top: 0px;
     left:0px;
-   
+
 
     }
 
-/*  */
+/*  /
 
 body{
     margin: 0;
     height: 100vh;
-    /* background-size: cover; */
-    /* display: flex; */
-    /* justify-content: center;
+    / background-size: cover; /
+    / display: flex; /
+    / justify-content: center;
     align-items: center; */
 
 }
 
-    
+
 
 
 
 
 footer {
 
-    /* background-image: url(../public/image/fond5.avif); */
+    background-image: url(../code-projet/public/image/fond5.avif);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
     text-align: center;
 
 }
-
-.social-icons{
-
-   max-width: 2px;
-   max-height: 2px;
-   list-style: none;
-}
-.social-icons{
-    margin: 0 10px;
-
-
-}
-.social-icons a {
-   font-size: 10px;
-}
+﻿
+Comme une envie de crever
+Julie T.
+julie_7976
