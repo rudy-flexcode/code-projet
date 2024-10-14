@@ -1,12 +1,12 @@
 body {
-	background-color: #fffcfc;
+	background-image:;
 	caret-color: transparent;
 	margin: 0;
 }
 #carousel  {
     width: 100%;
     max-width: 100vw;
-    height: 130vh;
+    height:85vh;
     position: absolute;
     top: 100%;
     transform: translateY(-50%);
