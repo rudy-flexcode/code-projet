@@ -1,6 +1,17 @@
+.contenu {
+    background-color: none;
+    padding: none;
+    border-radius: 10px;
+    background: linear-gradient(#01e1ff, #ffffff );
+ }
+
+
+
+
+
 header{
     padding: 100px;
-    background-image: url(./public/image/background\ beige.png) ;
+    background-image: url(./public/image/fond5.avif);
    
     /* background-image: url(../public/image/fond5.avif); */
 }
@@ -40,7 +51,7 @@ h1 {
 }
 
 #logo {
-    border-radius: 50%;
+    border-radius: 40%;
     width: 100px;
     height: 90px;
     position:absolute;
@@ -62,13 +73,7 @@ body{
 
 }
 
-
-.contenu {
-    background-color: none;
-    padding: none;
-    border-radius: 10px;
-    background: linear-gradient(#01e1ff, #ffffff );
- }
+    
 
 
 
